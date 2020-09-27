@@ -5,8 +5,7 @@ public class Questao01A extends Questoes{
 		int i = 0, j = 0, x = 0, cont = 0, termonpertence = 0;
 		String linguagem;
 		
-		System.out.println("Digite a sequencia no alfabeto {a,b}: ");;
-		linguagem = getLerteclado().nextLine();
+		System.out.println("Digite a sequencia no alfabeto {a,b}: ");
 		j = linguagem.length() - 1;
 		x = linguagem.length() - 1;
 		if((x+1) % 2 != 0) {
